@@ -21,8 +21,7 @@ The goal is to understand the complete CI workflow from code commit to automated
 ---
 
 # Project Structure
-
-
+```
 github-actions-lab/
 │
 ├── .github/
@@ -33,12 +32,12 @@ github-actions-lab/
 ├── test.js
 ├── package.json
 └── README.md
-``
+```
 
 ---
 
 # Application
-
+```
 ## app.js
 
 Contains a simple function:
@@ -206,3 +205,7 @@ git push
 **Sanjay**
 
 Learning DevOps, Cloud, Linux, Git, Docker, Kubernetes, Terraform, AWS, and CI/CD through hands-on projects.
+
+## Screenshots 
+<img width="1906" height="906" alt="Screenshot 2026-06-08 115133" src="https://github.com/user-attachments/assets/577d8552-7f00-4ebb-ba38-5e7dbf353a59" />
+
