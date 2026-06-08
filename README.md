@@ -49,9 +49,9 @@ function add(a, b) {
 module.exports = add;
 
 ---
-
+```
 # Automated Testing
-
+```
 ## test.js
 
 Validates the application logic automatically.
@@ -63,10 +63,11 @@ if (add(2, 3) === 5) {
 } else {
     throw new Error("Test Failed");
 }
-
+```
 ---
 
 # Local Testing
+```
 
 Run the test locally:
 
@@ -75,11 +76,11 @@ npm test
 Expected output:
 
 Test Passed
-
+```
 ---
 
 # GitHub Actions Workflow
-
+```
 Location:
 
 .github/workflows/ci.yml
@@ -106,9 +107,9 @@ jobs:
           node-version: 20
       - name: Run Tests
         run: npm test
-
+```
 # CI Workflow Architecture
-
+```
 Developer
     │
     │ git push
@@ -132,7 +133,7 @@ Run npm test
     │
     ▼
 PASS / FAIL
-
+```
 ---
 
 # Learning Objectives
@@ -206,6 +207,7 @@ git push
 
 Learning DevOps, Cloud, Linux, Git, Docker, Kubernetes, Terraform, AWS, and CI/CD through hands-on projects.
 
-## Screenshots 
+## Screenshots
+```
 <img width="1906" height="906" alt="Screenshot 2026-06-08 115133" src="https://github.com/user-attachments/assets/577d8552-7f00-4ebb-ba38-5e7dbf353a59" />
 
