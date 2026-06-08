@@ -91,10 +91,14 @@ name: CI Pipeline
 
 on:
   push:
+  
 jobs:
   test:
+  
     runs-on: ubuntu-latest
+    
    steps:
+
       - name: Checkout Code
         uses: actions/checkout@v4
       - name: Setup NodeJS
@@ -103,7 +107,6 @@ jobs:
           node-version: 20
       - name: Run Tests
         run: npm test
----
 
 # CI Workflow Architecture
 
