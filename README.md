@@ -208,6 +208,6 @@ git push
 Learning DevOps, Cloud, Linux, Git, Docker, Kubernetes, Terraform, AWS, and CI/CD through hands-on projects.
 
 ## Screenshots
-```
+
 <img width="1906" height="906" alt="Screenshot 2026-06-08 115133" src="https://github.com/user-attachments/assets/577d8552-7f00-4ebb-ba38-5e7dbf353a59" />
 
